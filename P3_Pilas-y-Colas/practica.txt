@@ -1,0 +1,33 @@
+Pilas 
+
+Push
+ 1.Evaluar si la pila esta vacia
+  1.1.Si esta vacia, crear nuevo nodo y apuntar head al nuevo nodo
+
+ 2.Si no esta vacia, crear nuevo nodo.
+ 3. El puntero next se apunta a head.
+ 4. Head se apunta a nuevo nodo.
+
+
+Pop
+ 1. Evaluar pila:
+   1.1. Si esta vacia, devolver valor por defecto de variable.
+
+ 2. Si no esta vacia, crear puntero temp apuntando a head.
+
+ 3. Guardar valor del nodo apuntando por temp en variable.
+ 4. Apuntar head al nodo siguiente.
+ 5. Borrar temp.
+ 6. Devolver variable.
+
+
+Colas
+
+Push
+ 1. Evaluar si cola esta vacia.
+   1.1. Si esta vacia, crear nuevo nodo y apuntar head y tail al nuevo nodo.
+ 2. Si no esta vacia, crear nuevo nodo y apuntar el puntero next del nodo apuntado por tail al nuevo nodo.
+ 3. Apuntar tail al nuevo nodo.
+
+Pop
+ 1. Seguir mismos pasos para POP de pilas.

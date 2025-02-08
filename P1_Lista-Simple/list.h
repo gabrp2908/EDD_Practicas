@@ -25,7 +25,6 @@ Node<T> *List<T>::buscar_nodo(T data){
         temp = temp->getNext();
     }
     return temp;
-
 }
 
 template<class T>

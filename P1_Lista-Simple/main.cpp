@@ -15,6 +15,8 @@ int main(){
     lista.print();
 
     lista.eliminar_nodo(5);
+    lista.eliminar_nodo(1);
+    lista.eliminar_nodo(20);
 
     cout << "Lista actualizada: " << endl;
     lista.print();

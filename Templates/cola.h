@@ -1,6 +1,6 @@
 #ifndef COLA_H
 #define COLA_H
-#include "../node.h"
+#include "nodo.h"
 #include <iostream>
 using namespace std;
 

@@ -11,7 +11,6 @@ class Cola{
         Node<T> *tail = nullptr;
 
     public:
-        Node<T>* buscar_nodo(T data);
         void push_nodo(T data);
         T pop_nodo();
         void print();

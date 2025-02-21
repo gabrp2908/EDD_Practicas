@@ -1,0 +1,10 @@
+Con su propia implementación de pilas y colas, realizar:
+
+1. Invertir el orden de una pila, asegurando de mantener la pila original, es decir, no devolver una copia de la pila invertida.
+
+2. En una cola que sus nodos guarden la edad, el peso y el nombre de una persona, imprimir los valores dentro del nodo según la edad de menor a mayor. 
+
+
+
+en la 2 como se hizo con un dato generico como puede guardar una estructura.
+se van sacando en la cola, que se filtra

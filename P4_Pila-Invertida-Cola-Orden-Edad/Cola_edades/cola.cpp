@@ -1,24 +1,23 @@
-#include <iostream>
 #include "cola.h"
-#include "persona.h"
-using namespace std;
 
-int main(){
+int main() {
     Cola<Persona> cola;
 
-    // Añadir personas a la cola
-    cola.push_nodo(Persona(22, 75.2, "Gabriela"));
-    cola.push_nodo(Persona(25, 68.3, "Sebastian"));
-    cola.push_nodo(Persona(18, 65.3, "Enger"));
-    cola.push_nodo(Persona(32, 80.2, "Melinna"));
+    Persona p1 = {22, 72.5, "Gabriela"};
+    Persona p2 = {20, 60.8, "Billy"};
+    Persona p3 = {30, 80.1, "Melinna"};
+    Persona p4 = {10, 78.2, "Erick"};
 
-    // Imprimir la cola en el orden original
-    cout << "Cola en orden original:" << endl;
+    cola.push_nodo(p1);
+    cola.push_nodo(p2);
+    cola.push_nodo(p3);
+    cola.push_nodo(p4);
+
+    cout << "Cola original:" << endl;
     cola.print();
 
-    // Imprimir la cola ordenada por edad
     cout << "Cola ordenada por edad:" << endl;
-    cola.print_orden();
+    cola.ordenar();
 
     return 0;
 }
